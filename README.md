@@ -29,8 +29,8 @@ CLI-based Website Reconnaissance & Vulnerability Scanner. A powerful Python tool
 ### 1️ Clone the Repository
 
 ```bash
-git clone https://github.com/AvirajShinde/recon-tool.git
-cd recon-tool
+git clone https://github.com/AvirajShinde/recon-scanner.git
+cd recon-scanner.
 ```
 
 ### 2️ Install Dependencies
@@ -50,7 +50,7 @@ pip install .
 ##  Usage
 
 ```bash
-recon-tool
+recon-scanner.
 ```
 
 Then enter the target domain when prompted:
@@ -94,7 +94,7 @@ API_KEYS = {
 ##  Project Structure
 
 ```
-recon-tool/
+recon-scanner./
 │
 ├── recon-tool/
 │   ├── main.py
