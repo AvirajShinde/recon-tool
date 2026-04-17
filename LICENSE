@@ -19,3 +19,19 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+DISCLAIMER FOR SECURITY TOOLING
+
+This tool is intended for authorised security assessments, penetration testing,
+and educational purposes only. Users must obtain explicit written permission
+from the target system owner before running any scans.
+
+Unauthorised scanning of systems you do not own or have permission to test may
+be illegal under applicable laws including but not limited to the Computer
+Fraud and Abuse Act (CFAA), the Computer Misuse Act (CMA), and equivalent
+legislation in your jurisdiction.
+
+The author (AvirajShinde) assumes no liability and is not responsible for any
+misuse, damage, or legal consequences resulting from the use of this software.
