@@ -31,7 +31,7 @@ This tool automates information gathering, threat intelligence, and vulnerabilit
 
 ```bash
 git clone https://github.com/AvirajShinde/recon-tool.git
-cd recon-scanner
+cd recon-tool
 ```
 
 ### 2️ Install Dependencies
@@ -51,7 +51,7 @@ pip install .
 ##  Usage
 
 ```bash
-recon-scanner
+recon-tool
 ```
 
 Then enter the target domain when prompted:
@@ -95,9 +95,9 @@ API_KEYS = {
 ##  Project Structure
 
 ```
-recon-scanner/
+recon-tool/
 │
-├── recon_scanner/
+├── recon-tool/
 │   ├── main.py
 │   ├── scanner.py
 │
