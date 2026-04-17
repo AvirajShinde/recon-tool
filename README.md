@@ -1,59 +1,68 @@
-#  Recon Scanner
+# 🔍 Recon Scanner
 
 CLI-based Website Reconnaissance & Vulnerability Scanner. A powerful Python tool to perform automated reconnaissance and identify security misconfigurations. Recon Scanner is an automated cybersecurity reconnaissance tool that collects essential target information such as open ports, DNS records, WHOIS details, HTTP headers, and webpage metadata. It is designed to assist in footprinting and enumeration phases of security testing with a clean and easy-to-use CLI interface.
 
----
 
-##  Features
-
-*  Domain & IP Resolution
-*  DNS Enumeration (A, MX, NS, TXT, AAAA, CNAME)
-*  WHOIS Lookup
-*  SSL/TLS Certificate Analysis
-*  Port Scanning (Top 50 ports using Nmap)
-*  HTTP Header Inspection
-*  Website Metadata Extraction
-*  Vulnerability Detection (OWASP-based checks)
-*  Threat Intelligence:
-
-  * VirusTotal integration
-  * Shodan integration
-  * DNSDumpster (subdomain enumeration)
-*  PDF Report Generation
-*  Multi-threaded scanning for performance
 
 ---
 
-##  Installation
+## 🚀 Features
 
-### 1️ Clone the Repository
+* 🌐 Domain & IP Resolution
+* 📡 DNS Enumeration
+* 🧾 WHOIS Lookup
+* 🔐 SSL/TLS Analysis
+* 🛰 Port Scanning (Nmap)
+* 📑 HTTP Header Analysis
+* 🧠 Metadata Extraction
+* 🛡 Vulnerability Detection (OWASP-based)
+* 🔎 Threat Intelligence:
+
+  * VirusTotal
+  * Shodan
+  * DNSDumpster
+* 📄 PDF Report Generation
+* ⚡ Multi-threaded scanning
+
+---
+
+## 🛠 Installation
+
+### 1️⃣ Clone Repository
 
 ```bash
 git clone https://github.com/AvirajShinde/recon-scanner.git
-cd recon-scanner.
+cd recon-scanner
 ```
 
-### 2️ Install Dependencies
+---
+
+### 2️⃣ Create Virtual Environment (Recommended)
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 3️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-OR (recommended)
-
-```bash
-pip install .
-```
-
 ---
 
-##  Usage
+## ▶ Usage
+
+Run the tool:
 
 ```bash
-recon-scanner.
+python recon-scanner.py
 ```
 
-Then enter the target domain when prompted:
+Then enter target:
 
 ```bash
 Enter target domain: example.com
@@ -61,7 +70,7 @@ Enter target domain: example.com
 
 ---
 
-##  Requirements
+## ⚙ Requirements
 
 * Python 3.8+
 * Linux OS (recommended)
@@ -75,90 +84,66 @@ sudo apt install nmap
 
 ---
 
-##  API Configuration
+## 🔑 API Configuration
 
-Edit API keys inside the code:
+Edit API keys inside the script:
 
 ```python
 API_KEYS = {
-    "virustotal": "YOUR_VIRUSTOTAL_API_KEY",
-    "shodan": "YOUR_SHODAN_API_KEY",
-    "dnsdumpster": "OPTIONAL_API_KEY"
+    "virustotal": "YOUR_KEY",
+    "shodan": "YOUR_KEY",
+    "dnsdumpster": "OPTIONAL"
 }
 ```
 
-> ⚠ If keys are not provided, those modules will be skipped.
-
 ---
 
-##  Project Structure
+## 📂 Project Structure
 
-```
-recon-scanner./
+```bash
+recon-scanner/
 │
-├── recon-tool/
-│   ├── main.py
-│   ├── scanner.py
-│
-├── logs/
-├── reports/
+├── recon-scanner.py
 ├── requirements.txt
-├── setup.cfg
 ├── README.md
+├── .gitignore
 ```
 
 ---
 
-##  Output
+## 📊 Output
 
-* CLI-based results
-* Vulnerability summary with severity levels
-* Detailed **PDF report** saved in `/reports`
-
----
-
-##  Vulnerability Coverage
-
-Includes checks for:
-
-* Missing security headers (CSP, HSTS, X-Frame, etc.)
-* SSL issues (expired, weak protocols, self-signed)
-* Open dangerous ports (FTP, Telnet, RDP, SMB, etc.)
-* Email security (SPF, DMARC)
-* Cookie security (Secure, HttpOnly)
-* Server information disclosure
-* Threat intelligence flags (VirusTotal, Shodan CVEs)
+* CLI scan results
+* Vulnerability summary
+* PDF report saved in `/reports`
 
 ---
 
-##  Disclaimer
+## ⚠ Disclaimer
 
-This tool is intended for:
+This tool is for:
 
 * Educational purposes
-* Authorized penetration testing
-* Security research
+* Authorized security testing
 
- Do NOT use this tool on systems without permission.
+❌ Do NOT scan systems without permission.
 
 ---
 
-##  Author
+## 👨‍💻 Author
 
 **Aviraj Shinde**
 
 ---
 
-##  Support
+## ⭐ Support
 
-If you like this project:
-
-*  Star the repository
-*  Fork it
-*  Contribute improvements
+* Star ⭐ the repo
+* Fork 🍴 it
+* Contribute 🛠
 
 ---
 
-##  License
+## 📜 License
 
 MIT License
