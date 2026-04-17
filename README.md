@@ -103,10 +103,13 @@ API_KEYS = {
 ```bash
 recon-scanner/
 │
-├── recon-scanner.py
-├── requirements.txt
-├── README.md
+├── recon-scanner.py   ✅ (main tool)
+├── .env
 ├── .gitignore
+├── LICENSE
+├── README.md
+├── requirements.txt
+├── setup.py
 ```
 
 ---
